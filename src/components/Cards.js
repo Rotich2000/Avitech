@@ -5,7 +5,7 @@ import './Cards.css'
 const Cards = () => {
   return (
     <div className="cards">
-      <h1>Get unlimited home Internet</h1>
+      <h1>Get products at affordable prices</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
