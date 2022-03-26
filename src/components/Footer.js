@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
         <section className="footer-subscription">
-            <p class="footer-subscription-heading">
+            <p className="footer-subscription-heading">
                 Browse smoothly through the internet.
             </p>
             <p className = "footer-subscription-text">

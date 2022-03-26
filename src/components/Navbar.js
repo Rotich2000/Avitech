@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onclick={closeMobileMenu}>
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
@@ -43,7 +43,7 @@ const Navbar = () => {
               <Link
                 to="/products"
                 className="nav-links"
-                onclick={closeMobileMenu}
+                onClick={closeMobileMenu}
               >
                 Products
               </Link>
@@ -52,13 +52,13 @@ const Navbar = () => {
               <Link
                 to="/services"
                 className="nav-links"
-                onclick={closeMobileMenu}
+                onClick={closeMobileMenu}
               >
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-links" onclick={closeMobileMenu}>
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
@@ -66,7 +66,7 @@ const Navbar = () => {
               <Link
                 to="/sign-up"
                 className="nav-links-mobile"
-                onclick={closeMobileMenu}
+                onClick={closeMobileMenu}
               >
                 Sign up
               </Link>
